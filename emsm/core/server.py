@@ -1267,6 +1267,40 @@ class Spigot_1_13(SpigotBase):
         return "1.13"
 
 
+class Spigot_1_14(SpigotBase):
+
+    @classmethod
+    def revision(cls):
+        return "1.14"
+
+
+class Spigot_1_15(SpigotBase):
+
+    @classmethod
+    def revision(cls):
+        return "1.15"
+
+
+class Spigot_1_16(SpigotBase):
+
+    @classmethod
+    def revision(cls):
+        return "1.16"
+
+
+class Spigot_1_17(SpigotBase):
+
+    @classmethod
+    def revision(cls):
+        return "1.17"
+
+
+class Spigot_1_18(SpigotBase):
+
+    @classmethod
+    def revision(cls):
+        return "1.18"
+
 # MC-Server
 # '''''''''
 
