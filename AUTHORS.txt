@@ -1,10 +1,14 @@
-   307	Benedikt Schmitt
+   316	Benedikt Schmitt
+    70	Steve Almond
     10	benediktschmitt
+     8	William R. Gomeringer
      6	Ulrich Gabor
      4	Luke Sneeringer
      4	Maxime Puys
+     3	Bryce Harrington
      3	Sean Goller
      2	richardhowes
+     1	BMcCallum
      1	Evan Moseman
      1	Kayila
      1	Pivotal
