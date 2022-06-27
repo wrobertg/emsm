@@ -2,7 +2,7 @@
 
 # The MIT License (MIT)
 #
-# Copyright (c) 2014-2018 <see AUTHORS.txt>
+# Copyright (c) 2014-2022 <see AUTHORS.txt>
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -1352,6 +1352,8 @@ class ServerManager(object):
             Vanilla_1_14,
             Vanilla_1_15,
             Vanilla_1_16,
+            Vanilla_1_17,
+            Vanilla_1_18,
             MinecraftForge_1_6,
             MinecraftForge_1_7,
             MinecraftForge_1_8,
@@ -1366,6 +1368,11 @@ class ServerManager(object):
             Spigot_1_11,
             Spigot_1_12,
             Spigot_1_13
+            Spigot_1_14
+            Spigot_1_15
+            Spigot_1_16
+            Spigot_1_17
+            Spigot_1_18
             ]
 
         for wrapper in wrappers:
