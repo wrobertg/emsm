@@ -8,7 +8,7 @@ Installation
         $ sudo apt-get update
         $ sudo apt-get upgrade
 
-#.  Install the depencies:
+#.  Install the dependencies:
 
     .. code-block:: bash
 
@@ -22,7 +22,7 @@ Installation
 
         $ sudo python3 -m pip install --pre emsm
 
-    This will also install all EMSM Python depencies.
+    This will also install all EMSM Python dependencies.
 
 #.  Create the user, that should run the EMSM:
 
