@@ -971,7 +971,7 @@ class MinecraftForge_1_12(MinecraftForgeBase, Vanilla_1_12):
         return "minecraft forge 1.12"
 
     def default_url(self):
-        return "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-installer.jar"
+        return "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-installer.jar"
 
     def exe_path(self):
         filenames = [filename \
@@ -979,6 +979,109 @@ class MinecraftForge_1_12(MinecraftForgeBase, Vanilla_1_12):
                      if re.match("^forge-1\.12.*.jar$", filename)]
         filename = filenames[0]
         return os.path.join(self.directory(), filename)
+
+
+class MinecraftForge_1_13(MinecraftForgeBase, Vanilla_1_13):
+
+    @classmethod
+    def name(self):
+        return "minecraft forge 1.13"
+
+    def default_url(self):
+        return "https://maven.minecraftforge.net/net/minecraftforge/forge/1.13.2-25.0.223/forge-1.13.2-25.0.223-installer.jar"
+
+    def exe_path(self):
+        filenames = [filename \
+                     for filename in os.listdir(self.directory()) \
+                     if re.match("^forge-1\.13.*.jar$", filename)]
+        filename = filenames[0]
+        return os.path.join(self.directory(), filename)
+
+
+class MinecraftForge_1_14(MinecraftForgeBase, Vanilla_1_14):
+
+    @classmethod
+    def name(self):
+        return "minecraft forge 1.14"
+
+    def default_url(self):
+        return "https://maven.minecraftforge.net/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-installer.jar"
+
+    def exe_path(self):
+        filenames = [filename \
+                     for filename in os.listdir(self.directory()) \
+                     if re.match("^forge-1\.14.*.jar$", filename)]
+        filename = filenames[0]
+        return os.path.join(self.directory(), filename)
+
+
+class MinecraftForge_1_15(MinecraftForgeBase, Vanilla_1_15):
+
+    @classmethod
+    def name(self):
+        return "minecraft forge 1.15"
+
+    def default_url(self):
+        return "https://maven.minecraftforge.net/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-installer.jar"
+
+    def exe_path(self):
+        filenames = [filename \
+                     for filename in os.listdir(self.directory()) \
+                     if re.match("^forge-1\.15.*.jar$", filename)]
+        filename = filenames[0]
+        return os.path.join(self.directory(), filename)
+
+
+class MinecraftForge_1_16(MinecraftForgeBase, Vanilla_1_16):
+
+    @classmethod
+    def name(self):
+        return "minecraft forge 1.16"
+
+    def default_url(self):
+        return "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.35/forge-1.16.5-36.2.35-installer.jar"
+
+    def exe_path(self):
+        filenames = [filename \
+                     for filename in os.listdir(self.directory()) \
+                     if re.match("^forge-1\.16.*.jar$", filename)]
+        filename = filenames[0]
+        return os.path.join(self.directory(), filename)
+
+
+class MinecraftForge_1_17(MinecraftForgeBase, Vanilla_1_17):
+
+    @classmethod
+    def name(self):
+        return "minecraft forge 1.17"
+
+    def default_url(self):
+        return "https://maven.minecraftforge.net/net/minecraftforge/forge/1.17.1-37.1.1/forge-1.17.1-37.1.1-installer.jar"
+
+    def exe_path(self):
+        filenames = [filename \
+                     for filename in os.listdir(self.directory()) \
+                     if re.match("^forge-1\.17.*.jar$", filename)]
+        filename = filenames[0]
+        return os.path.join(self.directory(), filename)
+
+
+class MinecraftForge_1_18(MinecraftForgeBase, Vanilla_1_18):
+
+    @classmethod
+    def name(self):
+        return "minecraft forge 1.18"
+
+    def default_url(self):
+        return "https://maven.minecraftforge.net/net/minecraftforge/forge/1.18.2-40.1.52/forge-1.18.2-40.1.52-installer.jar"
+
+    def exe_path(self):
+        filenames = [filename \
+                     for filename in os.listdir(self.directory()) \
+                     if re.match("^forge-1\.18.*.jar$", filename)]
+        filename = filenames[0]
+        return os.path.join(self.directory(), filename)
+
 
 
 # Bungeecord
