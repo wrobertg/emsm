@@ -12,7 +12,7 @@ Installation
 
     .. code-block:: bash
 
-        $ sudo apt-get install python3 python3-pip screen openjdk-7-jre-headless
+        $ sudo apt-get install python3 python3-pip screen openjdk-17-jre-headless
 
     Note, that the EMSM needs at least **Python 3.2** to run.
 
@@ -20,7 +20,7 @@ Installation
 
     .. code-block:: bash
 
-        $ sudo pip3 install --pre emsm
+        $ sudo python3 -m pip install --pre emsm
 
     This will also install all EMSM Python depencies.
 
